@@ -11,7 +11,7 @@ class Dog
     @@dogs << self
   end
   
-  self.all
+  def self.all
     @@dogs
   end
   
